@@ -1,0 +1,69 @@
+  body {
+      width: 100%;
+      text-align: center;
+      font-family: monospace;
+      margin-top: 50px;
+      color: white;
+      user-select: none;
+  }
+
+  #geral {
+      width: 500px;
+      background-color: rgb(23, 120, 255);
+      padding: 20px;
+      margin: auto;
+      text-align: center;
+      border-radius: 30px;
+      min-height: 200px;
+  }
+
+  #input-tarefa {
+      width: 65%;
+      height: 38px;
+      font-family: monospace;
+      border: none;
+      border-radius: 8px;
+      padding-left: 10px;
+      font-size: 16px;
+  }
+
+  #botao {
+      font-size: 16px;
+      font-family: monospace;
+      width: 25%;
+      height: 38px;
+      border-radius: 10px;
+      background-color: rgb(233, 117, 0);
+      color: white;
+      border: none;
+  }
+
+  #botao:hover {
+      background-color: rgb(215, 107, 0);
+  }
+
+  #botao:active {
+      background-color: rgb(202, 101, 0);
+  }
+
+  #tarefas {
+      width: 90px;
+      margin: auto;
+      font-size: 16px;
+      text-align: left;
+      cursor: pointer;
+      }
+#instrucoes {
+    /* POSICIONAMENTO FIXO: Mantém o elemento na tela, ignorando a rolagem */
+    position: fixed; 
+    
+    /* Posiciona o elemento no canto inferior direito */
+    bottom: 10px; 
+    right: 10px; 
+    /*Define a cor e tamanho */
+    color: grey; 
+    font-size: 14px; /* Um pouco menor para não competir com o título */
+    /* Garante que o texto use a mesma fonte do body */
+    font-family: monospace; 
+}
+  
